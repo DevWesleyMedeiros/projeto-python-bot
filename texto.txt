@@ -1,0 +1,15 @@
+PYAUTOGUI DOCUMENTAÇÃO:
+
+verifica as dimensões da tela do view Port em largura e altura
+screenWidth, screenHeight = pya.size()
+print(screenWidth, screenHeight)
+
+pyautogui.move(x, y) -- movimente o mause abruptamente para posição especificada
+pyautogui.moveTo(x, y, duration=2, tween=pyautogui.easeInOutQuad) -- movimento linear do mouse até a posição especificada com uma duração desse movimento também especificado
+
+pyautogui.scroll(n, -n) -- Dá um scroll na página de acordo com o valor especificado
+n positivo - scroll para cima
+-n negativo - scroll para baixo
+
+Lembra-me de fazer estas automações se em um arquivo executável
+Lembra-me de pausar a automação, clicando no canto superior esquerdo da tela
